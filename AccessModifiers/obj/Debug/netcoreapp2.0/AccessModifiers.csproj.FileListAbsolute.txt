@@ -1,0 +1,10 @@
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/AccessModifiers/bin/Debug/netcoreapp2.0/AccessModifiers.deps.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/AccessModifiers/bin/Debug/netcoreapp2.0/AccessModifiers.runtimeconfig.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/AccessModifiers/bin/Debug/netcoreapp2.0/AccessModifiers.runtimeconfig.dev.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/AccessModifiers/bin/Debug/netcoreapp2.0/AccessModifiers.dll
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/AccessModifiers/bin/Debug/netcoreapp2.0/AccessModifiers.pdb
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/AccessModifiers/obj/Debug/netcoreapp2.0/AccessModifiers.csproj.CoreCompileInputs.cache
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/AccessModifiers/obj/Debug/netcoreapp2.0/AccessModifiers.AssemblyInfoInputs.cache
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/AccessModifiers/obj/Debug/netcoreapp2.0/AccessModifiers.AssemblyInfo.cs
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/AccessModifiers/obj/Debug/netcoreapp2.0/AccessModifiers.dll
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/AccessModifiers/obj/Debug/netcoreapp2.0/AccessModifiers.pdb

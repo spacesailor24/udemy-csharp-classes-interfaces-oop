@@ -13,6 +13,7 @@ Constructors | [Lecture 7](#section-2-lecture-7)
 Object Initializers | [Lecture 8](#section-2-lecture-8)
 Methods | [Lecture 9](#section-2-lecture-9)
 Fields | [Lecture 10](#section-2-lecture-10)
+Access Modifiers | [Lecture 11](#section-2-lecture-11)
 
 ## General Notes
 
@@ -305,5 +306,57 @@ public class Customer
 public class Customer
 {
     readonly List<Order> Orders = new List<Order>();
+}
+```
+
+### Section 2 Lecture 11
+
+#### Access Modifiers
+
+[**Code Example**](AccessModifiers/Program.cs)
+
+An Access Modifier is a way to control access to a `class` and/or its `member`s
+
+C# has five:
+
+- Public
+- Private
+- Protected
+- Internal
+- Protected Internal
+
+They are used to create safety in programs e.g.
+
+```csharp
+public class Customer
+{
+    private string Name;
+}
+
+var john = new Customer();
+
+john.Name; // won't compile, because Name cannot be accessed outside of the Customer class
+```
+
+#### Encapsulation (in practice)
+
+- Define `field`s as `private`
+- Provide `getter`/`setter` `method`s as `public`
+
+```csharp
+public class Person
+{
+    private string _name; // private fields should start with an _ and use camelCase
+
+    public void SetName(string name)
+    {
+        if (!String.IsNullOrEmpty(name))
+            this._name = name;
+    }
+
+    public string GetName()
+    {
+        return _name;
+    }
 }
 ```
