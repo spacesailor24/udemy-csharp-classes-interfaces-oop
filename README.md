@@ -9,7 +9,6 @@ Lecture Topic | Link
 General Notes | [General Notes](#general-notes)
 **SECTION 2** | [**Section 2**](#section-2)
 Introduction to Classes | [Lecture 6](#section-2-lecture-6)
-Constructors | [Lecture 7](#section-2-lecture-7)
 
 ## General Notes
 
@@ -138,54 +137,5 @@ Console.WriteLine(); // There should only be one Console
 public class Person
 {
     public static int PeopleCount = 0;
-}
-```
-
-### Section 2 Lecture 7
-
-#### Constructors
-
-- A `constructor` is a `method` that is called when an instance of a `class` is created
-
-#### Why?
-
-- To put an `object` in an early state (i.e. to intialize some of the `field`s in a `class`)
-
-```csharp
-public class Customer
-{
-    public Customer() // This is a constructor, and it MUST have the same name as the class it's constructing
-    {
-        // ...
-    }
-}
-```
-
-```csharp
-public class Customer
-{
-    public string Name;
-
-    public Customer(string name)
-    {
-        this.Name = name; // this in this.Name references the current object
-    }
-}
-
-// The above can be used like so: var customer = new Customer("John");
-```
-
-#### Constructor Overloading
-
-- Have a `method` with the same name, but with different `parameter`s
-
-```csharp
-public class Customer
-{
-    public Customer() {...}
-
-    public Customer(string name) {...}
-
-    public Customer(int id, string name) {...}
 }
 ```
