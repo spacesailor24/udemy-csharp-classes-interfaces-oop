@@ -11,6 +11,7 @@ General Notes | [General Notes](#general-notes)
 Introduction to Classes | [Lecture 6](#section-2-lecture-6)
 Constructors | [Lecture 7](#section-2-lecture-7)
 Object Initializers | [Lecture 8](#section-2-lecture-8)
+Methods | [Lecture 9](#section-2-lecture-9)
 
 ## General Notes
 
@@ -197,3 +198,76 @@ public class Customer
 
 - A syntax for quickly initializing an `object` without the need to call one of its `constructor`s
 - This avoids needing to create multiple `constructor`s
+
+```csharp
+var person = new Person
+            {
+                FirstName = "Greatest",
+                LastName = "Ever"
+            };
+```
+
+### Section 2 Lecture 9
+
+#### Methods
+
+#### Signature of a Method
+
+- Name
+- Number and Type of parameters
+
+```csharp
+public class Point
+{
+    public void Move(int x, int y) {} // Move, int x, int y are the signatures of this method
+}
+```
+
+#### The Params Modifier
+
+```csharp
+public class Calculator
+{
+    public int Add(params int[] numbers) {...}
+}
+
+var result = calculator.Add(new int[]{1, 2, 3, 4}); // This is the standard way of doing it
+var result2 = calculator.Add(1, 2, 3, 4) // This is what params modifer lets us do
+```
+
+#### The Ref Modifier
+
+```csharp
+public class MyClass
+{
+    public void MyMethod(ref int a)
+    {
+        a += 2;
+    }
+}
+
+var a = 1;
+MyClass.MyMethod(ref a);
+// Because the red modifier is used in MyMethod, the reference to var a will be passed, and when
+// a += 2 happens the value of var a will actualy be updated - This is NOT standard behvaiour, without the ref modifier,
+// parameter a in MyMethod will just be a local version of the passed parameter var a.
+```
+
+#### The Out Modifier
+
+- The `out` modifier will return the value of the `parameter` back to the caller of the method
+
+```csharp
+public class MyClass
+{
+    public void MyMethod(out int result)
+    {
+        result = 1;
+    }
+}
+
+int a;
+MyClass.MyMethod(out a);
+
+Console.WriteLine(a); // Will output 1
+```

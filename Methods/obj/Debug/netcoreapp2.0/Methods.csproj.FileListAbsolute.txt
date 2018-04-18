@@ -1,0 +1,10 @@
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Methods/bin/Debug/netcoreapp2.0/Methods.deps.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Methods/bin/Debug/netcoreapp2.0/Methods.runtimeconfig.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Methods/bin/Debug/netcoreapp2.0/Methods.runtimeconfig.dev.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Methods/bin/Debug/netcoreapp2.0/Methods.dll
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Methods/bin/Debug/netcoreapp2.0/Methods.pdb
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Methods/obj/Debug/netcoreapp2.0/Methods.csproj.CoreCompileInputs.cache
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Methods/obj/Debug/netcoreapp2.0/Methods.AssemblyInfoInputs.cache
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Methods/obj/Debug/netcoreapp2.0/Methods.AssemblyInfo.cs
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Methods/obj/Debug/netcoreapp2.0/Methods.dll
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Methods/obj/Debug/netcoreapp2.0/Methods.pdb
