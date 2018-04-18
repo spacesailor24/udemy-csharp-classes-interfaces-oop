@@ -9,6 +9,8 @@ Lecture Topic | Link
 General Notes | [General Notes](#general-notes)
 **SECTION 2** | [**Section 2**](#section-2)
 Introduction to Classes | [Lecture 6](#section-2-lecture-6)
+Constructors | [Lecture 7](#section-2-lecture-7)
+Object Initializers | [Lecture 8](#section-2-lecture-8)
 
 ## General Notes
 
@@ -187,3 +189,11 @@ public class Customer
 
     public Customer(int id, string name) {...}
 }
+```
+
+### Section 2 Lecture 8
+
+#### Object Initializers
+
+- A syntax for quickly initializing an `object` without the need to call one of its `constructor`s
+- This avoids needing to create multiple `constructor`s
