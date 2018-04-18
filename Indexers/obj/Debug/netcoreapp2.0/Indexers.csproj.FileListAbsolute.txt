@@ -1,0 +1,10 @@
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Indexers/bin/Debug/netcoreapp2.0/Indexers.deps.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Indexers/bin/Debug/netcoreapp2.0/Indexers.runtimeconfig.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Indexers/bin/Debug/netcoreapp2.0/Indexers.runtimeconfig.dev.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Indexers/bin/Debug/netcoreapp2.0/Indexers.dll
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Indexers/bin/Debug/netcoreapp2.0/Indexers.pdb
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Indexers/obj/Debug/netcoreapp2.0/Indexers.csproj.CoreCompileInputs.cache
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Indexers/obj/Debug/netcoreapp2.0/Indexers.AssemblyInfoInputs.cache
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Indexers/obj/Debug/netcoreapp2.0/Indexers.AssemblyInfo.cs
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Indexers/obj/Debug/netcoreapp2.0/Indexers.dll
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Indexers/obj/Debug/netcoreapp2.0/Indexers.pdb

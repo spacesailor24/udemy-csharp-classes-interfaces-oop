@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers.csproj", "{11EA69F4-DDCC-462C-8BA6-0DB2B1C1B16E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11EA69F4-DDCC-462C-8BA6-0DB2B1C1B16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EA69F4-DDCC-462C-8BA6-0DB2B1C1B16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EA69F4-DDCC-462C-8BA6-0DB2B1C1B16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EA69F4-DDCC-462C-8BA6-0DB2B1C1B16E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

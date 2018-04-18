@@ -15,6 +15,7 @@ Methods | [Lecture 9](#section-2-lecture-9)
 Fields | [Lecture 10](#section-2-lecture-10)
 Access Modifiers | [Lecture 11](#section-2-lecture-11)
 Properties | [Lecture 12](#section-2-lecture-12)
+Indexers | [Lecture 13](#section-2-lecture-13)
 
 ## General Notes
 
@@ -391,5 +392,46 @@ public class Person
 public class Person
 {
     public DateTime Birthdate { get; set; }
+}
+```
+
+### Section 2 Lecture 13
+
+#### Indexers
+
+[**Code Example 1**](Indexers/Program.cs)
+[**Code Example 2**](Indexers/HttpCookie.cs)
+
+- An Indexer is a way to access `element`s in a `class` that represents a `list` of values
+
+```csharp
+var array = new int[5];
+array[0] = 1;
+
+var list = new List<int>();
+list[0] = 1;
+```
+
+```csharp
+var cookie = new HttpCookie();
+cookie.Expire = DateTime.Today.AddDays(5);
+
+cookies["name"] = "Wyatt"; // Method 1
+cookie.SetItem("name", "Wyatt"); // Method 2
+
+var name = cookie.["name"]; // Method 1
+var name2 = cookie.GetItem("name"); // Method 2
+```
+
+#### Creating an Indexer (it's nothing more than a property!)
+
+```csharp
+public class HttpCookie
+{
+    public string this[string key]
+    {
+        get {...}
+        set {...}
+    }
 }
 ```
