@@ -14,6 +14,7 @@ Object Initializers | [Lecture 8](#section-2-lecture-8)
 Methods | [Lecture 9](#section-2-lecture-9)
 Fields | [Lecture 10](#section-2-lecture-10)
 Access Modifiers | [Lecture 11](#section-2-lecture-11)
+Properties | [Lecture 12](#section-2-lecture-12)
 
 ## General Notes
 
@@ -358,5 +359,37 @@ public class Person
     {
         return _name;
     }
+}
+```
+
+### Section 2 Lecture 12
+
+#### Properties
+
+[**Code Example 1**](Properties/Program.cs)
+[**Code Example 2**](Properties/Person.cs)
+
+- Properties are a `class member` that encapsulates a `getter`/`setter` for accessing a `field`
+- Allows for creating a `getter`/`setter` with less code
+
+```csharp
+public class Person
+{
+    private DateTime _birthdate;
+
+    public DateTime Birthdate
+    {
+        get { return _birthdate; }
+        set { _birthdate = value; }
+    }
+}
+```
+
+#### Auto-implemented Properties
+
+```csharp
+public class Person
+{
+    public DateTime Birthdate { get; set; }
 }
 ```

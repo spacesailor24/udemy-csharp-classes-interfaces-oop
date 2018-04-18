@@ -1,0 +1,10 @@
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Properties/bin/Debug/netcoreapp2.0/Properties.deps.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Properties/bin/Debug/netcoreapp2.0/Properties.runtimeconfig.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Properties/bin/Debug/netcoreapp2.0/Properties.runtimeconfig.dev.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Properties/bin/Debug/netcoreapp2.0/Properties.dll
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Properties/bin/Debug/netcoreapp2.0/Properties.pdb
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Properties/obj/Debug/netcoreapp2.0/Properties.csproj.CoreCompileInputs.cache
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Properties/obj/Debug/netcoreapp2.0/Properties.AssemblyInfoInputs.cache
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Properties/obj/Debug/netcoreapp2.0/Properties.AssemblyInfo.cs
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Properties/obj/Debug/netcoreapp2.0/Properties.dll
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Properties/obj/Debug/netcoreapp2.0/Properties.pdb
