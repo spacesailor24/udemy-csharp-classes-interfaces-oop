@@ -1,0 +1,10 @@
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Classes/bin/Debug/netcoreapp2.0/Classes.deps.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Classes/bin/Debug/netcoreapp2.0/Classes.runtimeconfig.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Classes/bin/Debug/netcoreapp2.0/Classes.runtimeconfig.dev.json
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Classes/bin/Debug/netcoreapp2.0/Classes.dll
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Classes/bin/Debug/netcoreapp2.0/Classes.pdb
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Classes/obj/Debug/netcoreapp2.0/Classes.csproj.CoreCompileInputs.cache
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Classes/obj/Debug/netcoreapp2.0/Classes.AssemblyInfoInputs.cache
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Classes/obj/Debug/netcoreapp2.0/Classes.AssemblyInfo.cs
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Classes/obj/Debug/netcoreapp2.0/Classes.dll
+/home/wyatt/Public/Code/udemy/csharp-classes-interface-oop/Classes/obj/Debug/netcoreapp2.0/Classes.pdb
