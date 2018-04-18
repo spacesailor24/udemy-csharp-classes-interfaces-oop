@@ -12,6 +12,7 @@ Introduction to Classes | [Lecture 6](#section-2-lecture-6)
 Constructors | [Lecture 7](#section-2-lecture-7)
 Object Initializers | [Lecture 8](#section-2-lecture-8)
 Methods | [Lecture 9](#section-2-lecture-9)
+Fields | [Lecture 10](#section-2-lecture-10)
 
 ## General Notes
 
@@ -147,6 +148,10 @@ public class Person
 
 #### Constructors
 
+[**Code Example 1**](Constructors/Program.cs)
+[**Code Example 2**](Constructors/Customer.cs)
+[**Code Example 3**](Constructors/Order.cs)
+
 - A `constructor` is a `method` that is called when an instance of a `class` is created
 
 #### Why?
@@ -211,6 +216,10 @@ var person = new Person
 
 #### Methods
 
+[**Code Example 1**](Methods/Program.cs)
+[**Code Example 2**](Methods/Calculator.cs)
+[**Code Example 3**](Methods/Point.cs)
+
 #### Signature of a Method
 
 - Name
@@ -270,4 +279,31 @@ int a;
 MyClass.MyMethod(out a);
 
 Console.WriteLine(a); // Will output 1
+```
+
+### Section 2 Lecture 10
+
+#### Fields
+
+[**Code Example 1**](Fields/Program.cs)
+[**Code Example 2**](Fields/Customer.cs)
+
+#### Initialization
+
+```csharp
+public class Customer
+{
+    List<Order> Orders = new List<Orders>();
+}
+```
+
+#### Read-only Fields
+
+- Allow a `field` for a `class` to be initialized only **once**
+
+```csharp
+public class Customer
+{
+    readonly List<Order> Orders = new List<Order>();
+}
 ```
