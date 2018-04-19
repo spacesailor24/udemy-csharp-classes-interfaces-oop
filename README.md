@@ -18,6 +18,7 @@ Properties | [Lecture 12](#section-2-lecture-12)
 Indexers | [Lecture 13](#section-2-lecture-13)
 Class Coupling | [Lecture 16](#section-2-lecture-16)
 Inheritance | [Lecture 17](#section-2-lecture-17)
+Composition | [Lecture 18](#section-2-lecture-18)
 
 ## General Notes
 
@@ -508,3 +509,13 @@ public class Text : PresentationObject
     // Code specific to Text
 }
 ```
+
+### Section 3 Lecture 18
+
+#### Composition
+
+#### What is Composition
+
+- Composition is a kind or relationship between two `class`es that allows one to contain the other
+- `Has-A` relationship
+- Example: Car `has an` Engine
