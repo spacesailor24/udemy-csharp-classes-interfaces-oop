@@ -16,6 +16,8 @@ Fields | [Lecture 10](#section-2-lecture-10)
 Access Modifiers | [Lecture 11](#section-2-lecture-11)
 Properties | [Lecture 12](#section-2-lecture-12)
 Indexers | [Lecture 13](#section-2-lecture-13)
+Class Coupling | [Lecture 16](#section-2-lecture-16)
+Inheritance | [Lecture 17](#section-2-lecture-17)
 
 ## General Notes
 
@@ -433,5 +435,76 @@ public class HttpCookie
         get {...}
         set {...}
     }
+}
+```
+
+<!-- ################################################################################################################ -->
+<!--                                                     SECTION 3                                                    -->
+<!-- ################################################################################################################ -->
+
+## SECTION 3
+
+### Section 3 Lecture 16
+
+#### Class Coupling
+
+- Class coupling is a measure of how interconected `class`es and subsystems are
+
+#### Tightly Coupled Design
+
+This is a bad design, because there is a higher chance to break code down stream by updating code
+
+![Tightly Coupled Design](img/tightly_coupled_design_example.png?raw=true "Tightly Coupled Design")
+
+#### Loosely Coupled Design
+
+This is a better design, because it allows for code to be changed without affecting the rest of the application
+
+![Loosely Coupled Design](img/loosely_coupled_design_example.png?raw=true "Loosely Coupled Design")
+
+Loosely Coupled Design utilizes:
+
+- Encapsulation
+- The relationship between `class`es
+- `interfaces`
+
+#### Types of Relationships
+
+- Inheritance
+- Composition
+
+### Section 3 Lecture 17
+
+#### Inheritance
+
+#### What is Inheritance
+
+- A kind of relationship between two `class`es that allows one to `inherit` code from the other
+- **Is-A** relationship
+- Ex: A Car **is a** Vehicle
+
+Benefits of using **Inhertiance**:
+
+- Code re-use
+- Poloymorphic behaviour
+
+Using **Inheritance** allows the **encapsulation** of code to be used in multiple places
+
+If you were to design an application like PowerPoint, you could utilize **inhertiance** when creating the code for the different object you put onto a slide. For example, Text, Table, Image can all **inherit** from a `PresentationObject`
+
+![UML Inheritance](img/uml_inheritance.png?raw=true "UML Inheritance")
+
+The `PresentationObject` would be known as the **Parent/Base class** or **Super class**
+And the `Text`, `Table`, and `Image` classes would be known as **Child/Derived class** or **Sub class**
+
+```csharp
+public class PresentationObject
+{
+    // Common shared code
+}
+
+public class Text : PresentationObject
+{
+    // Code specific to Text
 }
 ```
