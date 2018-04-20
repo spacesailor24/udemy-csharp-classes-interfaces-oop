@@ -519,3 +519,23 @@ public class Text : PresentationObject
 - Composition is a kind or relationship between two `class`es that allows one to contain the other
 - `Has-A` relationship
 - Example: Car `has an` Engine
+
+#### Benefits
+
+- Code re-use
+- Flexibility
+- A means to obtaining loose-coupling
+
+![UML Composition](img/uml_composition_example.png?raw=true "UML Composition")
+
+```csharp
+public class Installer
+{
+    private Logger _logger;
+
+    public Installer(Logger logger)
+    {
+        _logger = logger;
+    }
+}
+```
