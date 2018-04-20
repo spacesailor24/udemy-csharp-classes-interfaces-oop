@@ -16,9 +16,10 @@ Fields | [Lecture 10](#section-2-lecture-10)
 Access Modifiers | [Lecture 11](#section-2-lecture-11)
 Properties | [Lecture 12](#section-2-lecture-12)
 Indexers | [Lecture 13](#section-2-lecture-13)
-Class Coupling | [Lecture 16](#section-2-lecture-16)
-Inheritance | [Lecture 17](#section-2-lecture-17)
-Composition | [Lecture 18](#section-2-lecture-18)
+Class Coupling | [Lecture 16](#section-3-lecture-16)
+Inheritance | [Lecture 17](#section-3-lecture-17)
+Composition | [Lecture 18](#section-3-lecture-18)
+Favor Composition over Inheritance | [Lecture 19](#section-3-lecture-19)
 
 ## General Notes
 
@@ -539,3 +540,40 @@ public class Installer
     }
 }
 ```
+
+### Section 3 Lecture 19
+
+#### Favor Composition over Inheritance
+
+#### Problems with Inheritance
+
+- Easily abused
+- Large hierarchies
+- Fragility
+- Tighlty coupling
+
+Here is an example of Inheritance:
+
+![UML Inheritance Bad Example 1](img/uml_inheritance_bad_example1.png?raw=true "UML Inheritance Bad Example 1")
+
+Now there is a problem if we decide to create `class Goldfish`:
+
+![UML Inheritance Bad Example 2](img/uml_inheritance_bad_example2.png?raw=true "UML Inheritance Bad Example 2")
+
+Since a `Goldfish` cannot walk, we are forced to create `class Mamal` that `Person` and `Dog` can inherit from.
+
+Alternatively, you can recreate the above by using **Composition**:
+
+![UML Composition Good Example 1](img/uml_composition_good_example.png?raw=true "UML Composition Good Example 2")
+
+Now if we needed to implement a new action for walking that both `Person` and `Dog` were going to utilize, we could create a new `class Walkable`:
+
+![UML Composition Good Example 2](img/uml_composition_good_example2.png?raw=true "UML Composition Good Example 2")
+
+And if we added the `class Goldfish` we could without having to refactor the logic assocaited with the `class Walkable`:
+
+![UML Composition Good Example 3](img/uml_composition_good_example3.png?raw=true "UML Composition Good Example 3")
+
+Lastly, if we needed to add swim logic to the `class Goldfish` we could do so by creating `class Swimmable`:
+
+![UML Compositon Good Example 4](img/uml_composition_good_example4.png?raw=true "UML Composition Good Example 4")
